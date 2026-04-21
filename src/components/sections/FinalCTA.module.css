@@ -1,0 +1,91 @@
+@import '../../styles/variables.css';
+
+.cta {
+  background: var(--color-primary);
+  padding: 96px 0;
+}
+
+.inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.label {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 20px;
+}
+
+.inner h2 {
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 900;
+  color: #ffffff;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.inner p {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+  margin-bottom: 40px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.button {
+  background: var(--color-accent);
+  color: #ffffff;
+  padding: 15px 36px;
+  border-radius: var(--radius);
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background var(--transition-base), transform var(--transition-fast), box-shadow var(--transition-base);
+  display: inline-block;
+}
+
+.button:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(217, 90, 22, 0.4);
+  color: #fff;
+}
+
+.secondary {
+  color: rgba(255,255,255,0.5);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  transition: color 0.18s;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  padding-bottom: 2px;
+}
+
+.secondary:hover {
+  color: rgba(255,255,255,0.85);
+  border-bottom-color: rgba(255,255,255,0.4);
+}
+
+@media (max-width: 900px) {
+  .cta {
+    padding: 64px 0;
+  }
+  .inner {
+    padding: 0 20px;
+  }
+}

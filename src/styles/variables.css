@@ -1,0 +1,70 @@
+:root {
+  /* Fondos */
+  --color-bg: #f3f4f6;
+  --color-bg-soft: #eef1f4;
+  --color-bg-section: #ffffff;
+  --color-bg-dark: #111418;
+  --color-bg-darker: #0b0d10;
+
+  /* Textos */
+  --color-text: #1a1f27;
+  --color-text-soft: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-text-light: #f9fafb;
+
+  /* Marca / acento */
+  --color-primary: #161b22;
+  --color-primary-soft: #222a34;
+  --color-accent: #d95a16;
+  --color-accent-hover: #b9480d;
+  --color-accent-soft: rgba(217, 90, 22, 0.1);
+
+  /* Bordes */
+  --color-border: #d8dee6;
+  --color-border-strong: #c9d1db;
+
+  /* Layout */
+  --container: 1200px;
+  --section-padding: 96px;
+  --section-padding-mobile: 56px;
+
+  /* Radius */
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 2px rgba(17, 24, 39, 0.05);
+  --shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+  --shadow-md: 0 14px 40px rgba(17, 24, 39, 0.12);
+  --shadow-lg: 0 24px 60px rgba(17, 24, 39, 0.16);
+
+  /* Transiciones */
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.22s ease;
+  --transition-slow: 0.35s ease;
+
+  /* Tipografía */
+  --font-main: Inter, "Segoe UI", Arial, sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 800;
+
+  /* Escala tipográfica */
+  --text-xs: 0.875rem;
+  --text-sm: 0.95rem;
+  --text-base: 1rem;
+  --text-md: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+  --text-4xl: 3.5rem;
+
+  /* Transiciones */
+  --transition-fast: 180ms ease;
+  --transition-normal: 260ms ease;
+}
